@@ -16,6 +16,9 @@ return new class extends Migration
             $table->string('nombreUsuario');
             $table->integer('idTipoUsuario');
             $table->integer('idGrupo');
+            $table->string('email');
+            $table->string('password');
+            $table->string('rol');
             $table->timestamps();
         });
     }
